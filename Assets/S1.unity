@@ -237,8 +237,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: bee478c57804c0140922a8f6562ae211, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -334,14 +334,14 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: Astronaut_AO
+  mTrackableName: KIY
   mInitializedInEditor: 1
-  mDataSetPath: 
-  mAspectRatio: 1
-  mImageTargetType: 3
-  mWidth: 0.2
-  mHeight: 0.2
-  mRuntimeTexture: {fileID: 2800000, guid: d7b0115a70b17034594c343b58769b82, type: 3}
+  mDataSetPath: Vuforia/Clase-AR1.xml
+  mAspectRatio: 1.414251
+  mImageTargetType: 0
+  mWidth: 1
+  mHeight: 1.414251
+  mRuntimeTexture: {fileID: 0}
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
@@ -375,8 +375,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Spider: {fileID: 929983173}
-  color: {r: 0.31202692, g: 0.5698112, b: 0.13653964, a: 0}
+  color: {r: 0.31367034, g: 0.6138977, b: 0.6226415, a: 0}
   colorMaterial: {fileID: 0}
+  textRand: 0
+  texturas:
+  - {fileID: 2800000, guid: f4a99bbc85817ee4faf42e8a692a546a, type: 3}
+  - {fileID: 2800000, guid: ea5755a7ce971664a92d7c2a595a5b9d, type: 3}
+  - {fileID: 2800000, guid: bd392e5cad7826a47832f271293b1b0a, type: 3}
+  - {fileID: 2800000, guid: 22eb7c4ce33ed974fa99aaf076c78f66, type: 3}
+  - {fileID: 2800000, guid: d7b0115a70b17034594c343b58769b82, type: 3}
 --- !u!114 &265755189
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -391,8 +398,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 265755186}
   mHiddenRoot: {fileID: 0}
-  mTargetName: Astronaut_AO
-  mDatasetName: 
+  mTargetName: KIY
+  mDatasetName: Vuforia/Clase-AR1.xml
   mCastedBehaviour: {fileID: 265755186}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
@@ -670,7 +677,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7635826562936255635, guid: 97a2187d3050b4a4bb9bc92d724bb1d9,
         type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7635826562936255635, guid: 97a2187d3050b4a4bb9bc92d724bb1d9,
+        type: 3}
       propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 565006a00e8419042bb67b9f5cb7e084, type: 2}
+    - target: {fileID: -7635826562936255635, guid: 97a2187d3050b4a4bb9bc92d724bb1d9,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: 565006a00e8419042bb67b9f5cb7e084, type: 2}
     - target: {fileID: 919132149155446097, guid: 97a2187d3050b4a4bb9bc92d724bb1d9,
@@ -931,8 +948,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    rgba: 4280132773
+  m_fontColor: {r: 0.645283, g: 0.64156413, b: 0.11566386, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
